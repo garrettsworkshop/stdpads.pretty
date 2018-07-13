@@ -1,0 +1,10 @@
+(module primarypoints:LPSeries-Screw (layer F.Cu) (tedit 5A67F35C)
+  (fp_text reference S** (at 0 -4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LPSeries-Screw (at 0 4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 6.35 6.35) (drill 3.2) (layers *.Cu *.Mask F.SilkS)
+    (zone_connect 2))
+)
