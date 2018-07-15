@@ -1,4 +1,4 @@
-(module primarypoints:ESP32-WROOM-ThermalVias (layer F.Cu) (tedit 5A611910)
+(module stdpads:ESP32-WROOM-ThermalVias (layer F.Cu) (tedit 5A611910)
   (fp_text reference REF** (at -11.557 9.017) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

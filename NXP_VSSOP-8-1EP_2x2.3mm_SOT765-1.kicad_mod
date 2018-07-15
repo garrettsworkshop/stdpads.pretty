@@ -1,4 +1,4 @@
-(module primarypoints:NXP_VSSOP-8-1EP_2x2.3mm_SOT765-1 (layer F.Cu) (tedit 5A4C571C)
+(module stdpads:NXP_VSSOP-8-1EP_2x2.3mm_SOT765-1 (layer F.Cu) (tedit 5A4C571C)
   (tags "NXP VSSOP 8 SOT765-1")
   (attr smd)
   (fp_text reference REF** (at 0 -1.9) (layer F.SilkS)

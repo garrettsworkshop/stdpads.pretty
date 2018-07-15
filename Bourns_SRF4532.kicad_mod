@@ -1,4 +1,4 @@
-(module Bourns_SRF4532 (layer F.Cu) (tedit 59E79628)
+(module stdpads:Bourns_SRF4532 (layer F.Cu) (tedit 59E79628)
   (fp_text reference REF** (at 0 -2.5) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )

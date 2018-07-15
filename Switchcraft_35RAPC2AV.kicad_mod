@@ -1,4 +1,4 @@
-(module primarypoints:Switchcraft_35RAPC2AV (layer F.Cu) (tedit 59E265DA)
+(module stdpads:Switchcraft_35RAPC2AV (layer F.Cu) (tedit 59E265DA)
   (fp_text reference REF** (at 0 -2.65) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )

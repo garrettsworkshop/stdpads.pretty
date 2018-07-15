@@ -1,4 +1,4 @@
-(module primarypoints:TI_SOT-23-5_DBV_R-PDSO-G5 (layer F.Cu) (tedit 5A14C574)
+(module stdpads:TI_SOT-23-5_DBV_R-PDSO-G5 (layer F.Cu) (tedit 5A14C574)
   (descr "5-pin SOT-23 package")
   (tags SOT-23-5)
   (solder_mask_margin 0.07)

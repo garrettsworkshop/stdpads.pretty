@@ -1,4 +1,4 @@
-(module primarypoints:NXP_GW_SC-88_SOT-363 (layer F.Cu) (tedit 59E25C10)
+(module stdpads:NXP_GW_SC-88_SOT-363 (layer F.Cu) (tedit 59E25C10)
   (tags "SOT-363 SC-70-6")
   (attr smd)
   (fp_text reference REF** (at 0 -1.75) (layer F.SilkS)

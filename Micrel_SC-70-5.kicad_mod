@@ -1,4 +1,4 @@
-(module primarypoints:Micrel_SC-70-5 (layer F.Cu) (tedit 59E7E623)
+(module stdpads:Micrel_SC-70-5 (layer F.Cu) (tedit 59E7E623)
   (descr "Texas Instruments \"DCK\" SOT-363/SC-70-6")
   (tags "DCK SOT-363 SC-70-6")
   (attr smd)

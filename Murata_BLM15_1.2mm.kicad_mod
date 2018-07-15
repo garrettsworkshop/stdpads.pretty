@@ -1,4 +1,4 @@
-(module primarypoints:Murata_BLM15_1.2mm (layer F.Cu) (tedit 59E90032)
+(module stdpads:Murata_BLM15_1.2mm (layer F.Cu) (tedit 59E90032)
   (attr smd)
   (fp_text reference REF** (at 0 -1.15) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))

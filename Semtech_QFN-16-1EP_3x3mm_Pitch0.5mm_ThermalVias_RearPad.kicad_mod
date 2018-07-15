@@ -1,4 +1,4 @@
-(module primarypoints:Semtech_QFN-16-1EP_3x3mm_Pitch0.5mm_ThermalVias_RearPad (layer F.Cu) (tedit 5B05C773)
+(module stdpads:Semtech_QFN-16-1EP_3x3mm_Pitch0.5mm_ThermalVias_RearPad (layer F.Cu) (tedit 5B05C773)
   (descr "16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFN 0.5")
   (attr smd)

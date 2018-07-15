@@ -1,4 +1,4 @@
-(module primarypoints:TI_MSOP-8_DGK_PSOP-8 (layer F.Cu) (tedit 59E25FE3)
+(module stdpads:TI_MSOP-8_DGK_PSOP-8 (layer F.Cu) (tedit 59E25FE3)
   (fp_text reference REF** (at 0 -2.15) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )

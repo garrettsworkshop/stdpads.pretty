@@ -1,4 +1,4 @@
-(module primarypoints:Diodes_SOT-353 (layer F.Cu) (tedit 59F2559B)
+(module stdpads:Diodes_SOT-353 (layer F.Cu) (tedit 59F2559B)
   (descr SOT-353)
   (tags SOT-353)
   (attr smd)

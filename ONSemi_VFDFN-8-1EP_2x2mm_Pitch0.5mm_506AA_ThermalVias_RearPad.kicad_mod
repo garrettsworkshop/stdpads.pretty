@@ -1,4 +1,4 @@
-(module primarypoints:ONSemi_VFDFN-8-1EP_2x2mm_Pitch0.5mm_506AA_ThermalVias_RearPad (layer F.Cu) (tedit 5A611979)
+(module stdpads:ONSemi_VFDFN-8-1EP_2x2mm_Pitch0.5mm_506AA_ThermalVias_RearPad (layer F.Cu) (tedit 5A611979)
   (tags "ONSemi VFDFN 8 506AA")
   (attr smd)
   (fp_text reference REF** (at 0 -1.7) (layer F.SilkS)

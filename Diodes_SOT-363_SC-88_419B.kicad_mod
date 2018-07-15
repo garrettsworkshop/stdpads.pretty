@@ -1,4 +1,4 @@
-(module primarypoints:Diodes_SOT-363_SC-88_419B (layer F.Cu) (tedit 59E78FAD)
+(module stdpads:Diodes_SOT-363_SC-88_419B (layer F.Cu) (tedit 59E78FAD)
   (descr SOT-363)
   (tags SOT-363)
   (attr smd)

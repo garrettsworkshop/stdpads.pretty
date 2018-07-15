@@ -1,4 +1,4 @@
-(module primarypoints:ONSemi_UFDFN-10_2.5x1mm_Pitch0.5mm_517BB (layer F.Cu) (tedit 5A4C52F3)
+(module stdpads:ONSemi_UFDFN-10_2.5x1mm_Pitch0.5mm_517BB (layer F.Cu) (tedit 5A4C52F3)
   (tags "ONSemi UFDFN 10 517BB")
   (attr smd)
   (fp_text reference REF** (at 0 -1.95) (layer F.SilkS)

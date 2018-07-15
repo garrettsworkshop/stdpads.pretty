@@ -1,4 +1,4 @@
-(module primarypoints:ONSemi_SOT-363_SC-88_419B (layer F.Cu) (tedit 59E78F13)
+(module stdpads:ONSemi_SOT-363_SC-88_419B (layer F.Cu) (tedit 59E78F13)
   (descr "SOT-363, SC-88, ON Semi 419B")
   (tags "SOT-363 SC-88 419B")
   (attr smd)

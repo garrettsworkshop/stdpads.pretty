@@ -1,4 +1,4 @@
-(module primarypoints:Maxim_QFN-32-1EP_5x5mm_Pitch0.5mm_ThermalVias_RearPad (layer F.Cu) (tedit 5AF66EE2)
+(module stdpads:Maxim_QFN-32-1EP_5x5mm_Pitch0.5mm_ThermalVias_RearPad (layer F.Cu) (tedit 5AF66EE2)
   (descr "UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)")
   (tags "QFN 0.5")
   (attr smd)
