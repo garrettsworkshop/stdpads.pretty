@@ -1,6 +1,4 @@
 (module stdpads:R_0402 (layer F.Cu) (tedit 59E18648)
-  (descr "Resistor SMD 0402, reflow soldering, Yageo")
-  (tags "resistor 0402")
   (attr smd)
   (fp_text reference REF** (at 0 -1) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))

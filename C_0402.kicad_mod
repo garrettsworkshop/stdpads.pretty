@@ -1,6 +1,4 @@
 (module stdpads:C_0402 (layer F.Cu) (tedit 59E174BC)
-  (descr "Capacitor SMD 0402, reflow soldering, Murata")
-  (tags "capacitor 0402")
   (attr smd)
   (fp_text reference REF** (at 0 -0.95) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
