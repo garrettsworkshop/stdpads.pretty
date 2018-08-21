@@ -1,6 +1,4 @@
-(module stdpads:Diodes_SOT-363_SC-88_419B (layer F.Cu) (tedit 59E78FAD)
-  (descr SOT-363)
-  (tags SOT-363)
+(module stdpads:Diodes_SOT363 (layer F.Cu) (tedit 59E78FAD)
   (attr smd)
   (fp_text reference REF** (at 0 -1.75) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
