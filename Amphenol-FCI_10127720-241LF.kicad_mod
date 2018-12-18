@@ -1,4 +1,4 @@
-(module stdpads:Amphenol-FCI_10127720-241LF (layer F.Cu) (tedit 5AF4AD4C)
+(module Amphenol-FCI_10127720-241LF (layer F.Cu) (tedit 5AF4AD4C)
   (fp_text reference J101 (at 0 -4.2) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )
