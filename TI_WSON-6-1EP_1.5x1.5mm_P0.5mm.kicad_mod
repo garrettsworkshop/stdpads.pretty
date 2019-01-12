@@ -1,4 +1,4 @@
-(module TI_WSON-6-1EP_1.5x1.5mm_P0.5mm (layer F.Cu) (tedit 5BF4DC4D)
+(module TI_WSON-6-1EP_1.5x1.5mm_P0.5mm (layer F.Cu) (tedit 5C19ECCE)
   (tags "WSON-6 DFN-6")
   (attr smd)
   (fp_text reference REF** (at 0 -1.4) (layer F.SilkS)
@@ -29,7 +29,7 @@
   (pad 6 smd roundrect (at 0.55 -0.5) (size 0.7 0.23) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 0.8 0.8 0.8))
     (rotate (xyz 0 0 0))
   )
 )

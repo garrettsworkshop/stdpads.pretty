@@ -1,4 +1,4 @@
-(module SOT-363 (layer F.Cu) (tedit 5BD63442)
+(module SOT-363 (layer F.Cu) (tedit 5C19E8CD)
   (tags "SOT-363 SC-70-6")
   (attr smd)
   (fp_text reference REF** (at 0 -1.65) (layer F.SilkS)
@@ -27,7 +27,7 @@
   (pad 2 smd roundrect (at -0.85 0) (size 1 0.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at 0.85 0.65) (size 1 0.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 6 smd roundrect (at 0.85 -0.65) (size 1 0.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl
+  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
