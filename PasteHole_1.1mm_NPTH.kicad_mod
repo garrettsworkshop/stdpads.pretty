@@ -1,8 +1,8 @@
-(module PasteHole_1.1mm_NPTH (layer F.Cu) (tedit 5C647CB8)
+(module PasteHole_1.1mm_NPTH (layer F.Cu) (tedit 5CC2824F)
   (descr "Circular Fiducial, 1mm bare copper top; 2mm keepout (Level A)")
   (tags marker)
   (attr virtual)
-  (fp_text reference H7 (at 0 -2.2) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -1.651) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )
   (fp_text value " " (at 0 2) (layer F.Fab) hide
