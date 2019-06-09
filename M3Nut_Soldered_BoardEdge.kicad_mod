@@ -1,4 +1,5 @@
-(module M3Nut_Soldered_BoardEdge (layer F.Cu) (tedit 5C92EFD8)
+(module M3Nut_Soldered_BoardEdge (layer F.Cu) (tedit 5CFD7662)
+  (attr smd)
   (fp_text reference REF** (at 0 -5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

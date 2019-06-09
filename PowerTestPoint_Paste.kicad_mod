@@ -1,5 +1,5 @@
-(module PowerTestPoint_Paste (layer F.Cu) (tedit 5C68B19A)
-  (attr smd)
+(module PowerTestPoint_Paste (layer F.Cu) (tedit 5CFD764A)
+  (attr virtual)
   (fp_text reference REF** (at 0 3.1) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )
