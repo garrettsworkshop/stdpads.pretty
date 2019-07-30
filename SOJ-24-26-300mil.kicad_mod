@@ -1,4 +1,4 @@
-(module SOJ-24-26-300mil (layer F.Cu) (tedit 5CC0C384)
+(module SOJ-24-26-300mil (layer F.Cu) (tedit 5D12DE12)
   (attr smd)
   (fp_text reference REF** (at 0 -9.4488) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
@@ -49,8 +49,43 @@
   (pad 25 smd roundrect (at 3.7 -6.35) (size 4 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 26 smd roundrect (at 3.7 -7.62) (size 4 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 14 smd roundrect (at 3.7 7.62) (size 4 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-28W_7.5x17.9mm_P1.27mm.wrl
-    (offset (xyz 0 0.635 0))
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.wrl
+    (offset (xyz -1.1 5.715 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.wrl
+    (offset (xyz -1.1 1.905 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.wrl
+    (offset (xyz -1.1 -1.905 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.wrl
+    (offset (xyz -1.1 -5.715 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.wrl
+    (offset (xyz 1.1 5.715 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.wrl
+    (offset (xyz 1.1 1.905 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.wrl
+    (offset (xyz 1.1 -1.905 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.wrl
+    (offset (xyz 1.1 -5.715 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

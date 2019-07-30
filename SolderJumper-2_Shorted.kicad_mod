@@ -1,4 +1,4 @@
-(module SolderJumper-2_Shorted (layer F.Cu) (tedit 5C64B8E5)
+(module SolderJumper-2_Shorted (layer F.Cu) (tedit 5D005AE8)
   (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
   (tags "solder jumper open")
   (attr virtual)
@@ -20,8 +20,9 @@
   (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer F.CrtYd) (width 0.05))
-  (fp_poly (pts (xy -0.65 -0.25) (xy 0.65 -0.25) (xy 0.65 0.25) (xy -0.65 0.25)) (layer F.Paste) (width 0.635))
-  (pad 1 smd custom (at -0.65 0) (size 1 0.5) (layers F.Cu F.Mask)
+  (fp_poly (pts (xy -0.65 -0.25) (xy 0.65 -0.25) (xy 0.65 0.25) (xy -0.65 0.25)) (layer F.Cu) (width 0))
+  (fp_poly (pts (xy -0.65 -0.25) (xy 0.65 -0.25) (xy 0.65 0.25) (xy -0.65 0.25)) (layer F.Mask) (width 0.7))
+  (pad 1 smd custom (at -0.65 0) (size 1 0.5) (layers F.Cu)
     (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -30,7 +31,7 @@
       (gr_poly (pts
          (xy 0 -0.75) (xy 0.5 -0.75) (xy 0.5 0.75) (xy 0 0.75)) (width 0))
     ))
-  (pad 2 smd custom (at 0.65 0) (size 1 0.5) (layers F.Cu F.Mask)
+  (pad 2 smd custom (at 0.65 0) (size 1 0.5) (layers F.Cu)
     (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
