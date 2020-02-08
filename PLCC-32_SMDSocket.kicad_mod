@@ -1,4 +1,4 @@
-(module PLCC-32_SMDSocket (layer F.Cu) (tedit 5D0DA848)
+(module PLCC-32_SMDSocket (layer F.Cu) (tedit 5E322723)
   (descr "PLCC, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf), generated with kicad-footprint-generator ipc_plcc_jLead_generator.py")
   (tags "PLCC LCC")
   (attr smd)
@@ -114,6 +114,11 @@
   (pad 32 smd roundrect (at 1.27 -6.8375) (size 0.6 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-32_PTHSocket.wrl
     (at (xyz 0 0 0))
+    (scale (xyz 1 1 0.5))
+    (rotate (xyz 0 0 180))
+  )
+  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-32.wrl
+    (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
