@@ -1,4 +1,4 @@
-(module SOT-223-6 (layer F.Cu) (tedit 5E052ACD)
+(module SOT-223-6 (layer F.Cu) (tedit 5E31ED99)
   (descr "module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf")
   (tags "CMS SOT")
   (attr smd)
@@ -30,7 +30,7 @@
   (pad 3 smd roundrect (at -3.1375 0) (size 2.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd roundrect (at -3.1375 2.54) (size 2.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at -3.1375 -2.54) (size 2.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-223-6.wrl
+  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
