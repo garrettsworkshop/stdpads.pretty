@@ -1,5 +1,6 @@
-(module Semtech_QFN-16-1EP_3x3mm_P0.5mm (layer F.Cu) (tedit 5CF81D9B)
+(module Semtech_QFN-16-1EP_3x3mm_P0.5mm (layer F.Cu) (tedit 5E913312)
   (tags QFN-16)
+  (solder_mask_margin 0.025)
   (attr smd)
   (fp_text reference REF** (at 0 -2.55) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))

@@ -1,6 +1,6 @@
-(module ESP32-WROVER_WROOM-32 (layer F.Cu) (tedit 5D2E4A29)
+(module ESP32-WROVER_WROOM-32 (layer F.Cu) (tedit 5E89129E)
   (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+  (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 0.8128 0.8128) (thickness 0.2032)))
   )
   (fp_text value ESP32-WROVER_WROOM-32 (at 0 1.5) (layer F.Fab) hide
@@ -17,6 +17,9 @@
   (fp_line (start -9 23.96) (end 9 23.96) (layer F.Fab) (width 0.05))
   (fp_line (start 9 23.96) (end 9 -7.49) (layer F.Fab) (width 0.05))
   (fp_line (start 9 -7.49) (end -9 -7.49) (layer F.Fab) (width 0.05))
+  (fp_text user %R (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.8128 0.8128) (thickness 0.2032)))
+  )
   (pad 24 smd oval (at 5.715 17.79 90) (size 2.5 0.9) (layers F.Cu F.Mask))
   (pad 23 smd oval (at 4.445 17.79 90) (size 2.5 0.9) (layers F.Cu F.Mask))
   (pad 22 smd oval (at 3.175 17.79 90) (size 2.5 0.9) (layers F.Cu F.Mask))
