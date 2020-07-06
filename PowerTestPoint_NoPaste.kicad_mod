@@ -1,4 +1,5 @@
-(module PowerTestPoint_NoPaste (layer F.Cu) (tedit 5CFD764E)
+(module PowerTestPoint_NoPaste (layer F.Cu) (tedit 5EE29BE2)
+  (solder_mask_margin 0.05)
   (attr virtual)
   (fp_text reference REF** (at 0 3.1) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
@@ -28,8 +29,8 @@
   (fp_text user %R (at 0 1.45) (layer F.Fab)
     (effects (font (size 0.127 0.127) (thickness 0.03175)))
   )
-  (pad 1 smd rect (at 0 -1.45) (size 3.4 1.8) (layers F.Cu F.Mask))
-  (pad 2 smd rect (at 0 1.45) (size 3.4 1.8) (layers F.Cu F.Mask))
+  (pad 1 smd roundrect (at 0 -1.45) (size 3.4 1.8) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
+  (pad 2 smd roundrect (at 0 1.45) (size 3.4 1.8) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
   (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Bridge_Pitch7.62mm_Drill1.3mm.wrl
     (offset (xyz -0.6834 -1 0))
     (scale (xyz 0.18 0.62 0.09))

@@ -1,5 +1,7 @@
-(module TaiyoYuden_NRS6028 (layer F.Cu) (tedit 5E9237D0)
+(module TaiyoYuden_NRS6028 (layer F.Cu) (tedit 5EE293F1)
   (tags inductor)
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.05)
   (attr smd)
   (fp_text reference L102 (at 0 0 -270) (layer F.Fab)
     (effects (font (size 0.8128 0.8128) (thickness 0.2032)))

@@ -1,4 +1,6 @@
-(module Header_2x5_Unshrouded_P1.27mm (layer F.Cu) (tedit 5E891411)
+(module Header_2x5_Unshrouded_P1.27mm (layer F.Cu) (tedit 5EE29FEE)
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.025)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )

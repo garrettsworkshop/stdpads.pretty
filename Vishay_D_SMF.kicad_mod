@@ -1,5 +1,7 @@
-(module Vishay_D_SMF (layer F.Cu) (tedit 5E9143C5)
+(module Vishay_D_SMF (layer F.Cu) (tedit 5EE29123)
   (tags Diode)
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.05)
   (attr smd)
   (fp_text reference REF** (at 0 0 180) (layer F.Fab)
     (effects (font (size 0.508 0.508) (thickness 0.127)))

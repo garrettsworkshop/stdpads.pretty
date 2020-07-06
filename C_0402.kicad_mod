@@ -1,5 +1,7 @@
-(module C_0402 (layer F.Cu) (tedit 5E890A48)
+(module C_0402 (layer F.Cu) (tedit 5EE29C3C)
   (tags capacitor)
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.05)
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 0.127 0.127) (thickness 0.03175)))

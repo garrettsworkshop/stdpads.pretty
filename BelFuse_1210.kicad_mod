@@ -1,5 +1,7 @@
-(module BelFuse_1210 (layer F.Cu) (tedit 5E89097D)
+(module BelFuse_1210 (layer F.Cu) (tedit 5EE2A166)
   (tags "PTC fuse")
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.025)
   (attr smd)
   (fp_text reference REF** (at 0 0 -180) (layer F.Fab)
     (effects (font (size 0.508 0.508) (thickness 0.127)))

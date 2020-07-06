@@ -1,5 +1,6 @@
-(module Molex_473521001_microSD (layer F.Cu) (tedit 5E912FCA)
+(module Molex_473521001_microSD (layer F.Cu) (tedit 5EE29EED)
   (solder_mask_margin 0.05)
+  (solder_paste_margin -0.05)
   (attr smd)
   (fp_text reference REF** (at 2.2 0) (layer F.SilkS)
     (effects (font (size 0.8128 0.8128) (thickness 0.2032)))

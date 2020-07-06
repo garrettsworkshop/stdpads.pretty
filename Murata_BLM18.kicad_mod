@@ -1,5 +1,7 @@
-(module Murata_BLM18 (layer F.Cu) (tedit 5E89245A)
+(module Murata_BLM18 (layer F.Cu) (tedit 5EE29ED8)
   (tags "ferrite bead")
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.04)
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 0.254 0.254) (thickness 0.0635)))

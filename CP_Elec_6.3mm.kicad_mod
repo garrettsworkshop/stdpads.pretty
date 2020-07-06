@@ -1,5 +1,7 @@
-(module CP_Elec_6.3mm (layer F.Cu) (tedit 5E8909DF)
+(module CP_Elec_6.3mm (layer F.Cu) (tedit 5EE2A154)
   (tags "Capacitor Electrolytic")
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.025)
   (attr smd)
   (fp_text reference REF** (at 0 0 90) (layer F.Fab)
     (effects (font (size 0.8128 0.8128) (thickness 0.2032)))

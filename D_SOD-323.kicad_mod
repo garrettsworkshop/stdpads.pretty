@@ -1,5 +1,7 @@
-(module D_SOD-323 (layer F.Cu) (tedit 5E8911E1)
+(module D_SOD-323 (layer F.Cu) (tedit 5EE2A0EE)
   (tags Diode)
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.025)
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 0.254 0.254) (thickness 0.0635)))

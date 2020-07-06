@@ -1,4 +1,6 @@
-(module SOP-24-26-300mil (layer F.Cu) (tedit 5EBF00BA)
+(module SOP-24-26-300mil (layer F.Cu) (tedit 5EE29A96)
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.025)
   (attr smd)
   (fp_text reference REF** (at 0 0 270) (layer F.Fab)
     (effects (font (size 0.8128 0.8128) (thickness 0.2032)))

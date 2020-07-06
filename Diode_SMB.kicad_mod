@@ -1,5 +1,7 @@
-(module Diode_SMB (layer F.Cu) (tedit 5E89110F)
+(module Diode_SMB (layer F.Cu) (tedit 5EE2A0F9)
   (tags Diode)
+  (solder_mask_margin 0.05)
+  (solder_paste_margin -0.025)
   (attr smd)
   (fp_text reference REF** (at 0 0 270) (layer F.Fab)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
