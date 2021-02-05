@@ -1,6 +1,6 @@
-(module ESP32-WROVER (layer F.Cu) (tedit 601CC45E)
+(module ESP32-WROVER (layer F.Cu) (tedit 601CCBE2)
   (solder_mask_margin 0.05)
-  (solder_paste_margin -0.025)
+  (solder_paste_margin -0.05)
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 0.8128 0.8128) (thickness 0.2032)))
