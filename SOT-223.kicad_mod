@@ -34,7 +34,7 @@
   (pad 2 smd roundrect (at 3.15 0 180) (size 2 1.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2))
   (pad 3 smd roundrect (at 3.15 -2.3 180) (size 2 1.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2))
   (pad 1 smd roundrect (at 3.15 2.3 180) (size 2 1.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2))
-  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

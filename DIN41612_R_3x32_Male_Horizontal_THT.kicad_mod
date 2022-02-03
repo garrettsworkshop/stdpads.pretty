@@ -180,7 +180,7 @@
   (pad C30 thru_hole circle (at 73.66 5.08) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask))
   (pad C31 thru_hole circle (at 76.2 5.08) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask))
   (pad C32 thru_hole circle (at 78.74 5.08) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_DIN.3dshapes/DIN41612_R_3x32_Male_Horizontal_THT.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connector_DIN.3dshapes/DIN41612_R_3x32_Male_Horizontal_THT.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

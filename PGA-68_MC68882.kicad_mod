@@ -77,7 +77,7 @@
   (pad H9 thru_hole circle (at 8.89 -6.35) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask))
   (pad H8 thru_hole circle (at 6.35 -6.35) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask))
   (pad G9 thru_hole circle (at 8.89 -3.81) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_DIN.3dshapes/DIN41612_R_3x32_Male_Horizontal_THT.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connector_DIN.3dshapes/DIN41612_R_3x32_Male_Horizontal_THT.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

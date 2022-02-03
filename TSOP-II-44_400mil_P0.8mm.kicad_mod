@@ -76,7 +76,7 @@
   (pad 42 smd roundrect (at -6.8 -5.5875 90) (size 1.525 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 43 smd roundrect (at -7.6 -5.5875 90) (size 1.525 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 44 smd roundrect (at -8.4 -5.5875 90) (size 1.525 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_SO.3dshapes/TSOP-II-44_10.16x18.41mm_P0.8mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-II-44_10.16x18.41mm_P0.8mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

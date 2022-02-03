@@ -93,7 +93,7 @@
     (zone_connect 2))
   (pad 39 smd rect (at -1 7.53) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
     (zone_connect 2))
-  (model ${KISYS3DMOD}/RF_Module.3dshapes/ESP32-WROOM-32.wrl
+  (model ${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32.wrl
     (offset (xyz 0 -8.210000000000001 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

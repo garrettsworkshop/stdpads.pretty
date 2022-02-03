@@ -48,7 +48,7 @@
       (gr_poly (pts
          (xy 0.2 -1.95) (xy 0.2 1.9) (xy -0.2 1.9) (xy -0.2 -1.95)) (width 0.1))
     ))
-  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

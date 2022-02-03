@@ -151,7 +151,7 @@
   (pad 98 smd roundrect (at -4.875 -11.125) (size 0.45 1.75) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 99 smd roundrect (at -5.525 -11.125) (size 0.45 1.75) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 100 smd roundrect (at -6.175 -11.125) (size 0.45 1.75) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_QFP.3dshapes/PQFP-100_14x20mm_P0.65mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/PQFP-100_14x20mm_P0.65mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

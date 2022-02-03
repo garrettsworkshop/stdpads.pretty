@@ -40,12 +40,12 @@
     (solder_mask_margin 0.024))
   (pad 9 smd roundrect (at 0 0) (size 0.25 1.65) (layers F.Cu F.Mask) (roundrect_rratio 0.25)
     (solder_mask_margin 0.05))
-  (model ${KISYS3DMOD}/Package_SON.3dshapes/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.wrl
     (offset (xyz -0.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KISYS3DMOD}/Package_SON.3dshapes/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.wrl
     (offset (xyz 0.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

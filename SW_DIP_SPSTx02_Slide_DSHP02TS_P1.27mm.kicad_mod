@@ -60,7 +60,7 @@
   (pad 2 smd roundrect (at 0.635 3.81 90) (size 1.524 0.76) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at 0.635 -3.81 90) (size 1.524 0.76) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at -0.635 -3.81 90) (size 1.524 0.76) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx02_Slide_KingTek_DSHP02TS_W7.62mm_P1.27mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx02_Slide_KingTek_DSHP02TS_W7.62mm_P1.27mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
