@@ -1,32 +1,204 @@
-(module BelFuse_1206 (layer F.Cu) (tedit 5EE2A16A)
-  (tags "PTC fuse")
-  (solder_mask_margin 0.05)
-  (solder_paste_margin -0.025)
-  (attr smd)
-  (fp_text reference REF** (at 0 0 -180) (layer F.Fab)
-    (effects (font (size 0.508 0.508) (thickness 0.127)))
-  )
-  (fp_text value BelFuse_1206 (at 0 0.65 -180) (layer F.Fab)
-    (effects (font (size 0.127 0.127) (thickness 0.03175)))
-  )
-  (fp_line (start -1.7 -1.05) (end 1.7 -1.05) (layer F.SilkS) (width 0.127))
-  (fp_line (start -1.7 -0.9) (end -1.7 0.9) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.7 -0.9) (end 1.7 0.9) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.7 1.05) (end 1.7 1.05) (layer F.SilkS) (width 0.127))
-  (fp_line (start -2.4 1.2) (end 2.4 1.2) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.4 -1.2) (end 2.4 -1.2) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.4 -1.2) (end 2.4 1.2) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.4 1.2) (end -2.4 -1.2) (layer F.CrtYd) (width 0.05))
-  (fp_text user %R (at 0 -1.75) (layer F.SilkS)
-    (effects (font (size 0.8128 0.8128) (thickness 0.2032)))
-  )
-  (fp_line (start -1.7 0.9) (end 1.7 0.9) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.7 -0.9) (end 1.7 -0.9) (layer F.Fab) (width 0.127))
-  (pad 2 smd roundrect (at 1.5 0) (size 1.2 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (pad 1 smd roundrect (at -1.5 0) (size 1.2 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BelFuse_1206"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "PTC fuse")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "ad1aba95-dbd2-4286-88e2-bd4e974e9fbb")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "BelFuse_1206"
+		(at 0 0.65 180)
+		(layer "F.Fab")
+		(uuid "be111fc8-95ef-423b-8eac-0713219b2c91")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.03175)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f16d3f40-22d8-46b4-b0e8-90abfd1634b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f0ff77c-b44e-400d-83af-1cb25b15db6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8066655b-7e99-45fc-9a7e-6ef06e2bf6bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(solder_paste_margin -0.025)
+	(attr smd)
+	(fp_line
+		(start -0.8 -1.05)
+		(end 0.8 -1.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c0f79d7-a07b-452c-9342-f41ab45c2c98")
+	)
+	(fp_line
+		(start -0.8 1.05)
+		(end 0.8 1.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d17d4616-934c-40b3-a97e-efed18cbef6a")
+	)
+	(fp_line
+		(start -2.4 -1.2)
+		(end 2.4 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ef12e87-6787-404e-8681-8c6e6b7d9955")
+	)
+	(fp_line
+		(start -2.4 1.2)
+		(end -2.4 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6522c681-264d-4ff0-95c1-1a0135e5fba9")
+	)
+	(fp_line
+		(start -2.4 1.2)
+		(end 2.4 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c70e0887-3731-41ac-8b8d-508924962416")
+	)
+	(fp_line
+		(start 2.4 -1.2)
+		(end 2.4 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0e03f00-fd56-48a4-b349-384e85a38cb7")
+	)
+	(fp_line
+		(start -1.7 -0.9)
+		(end -1.7 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65a53d73-4c5d-4e2f-9124-1cae3b2cff1f")
+	)
+	(fp_line
+		(start -1.7 -0.9)
+		(end 1.7 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42d70223-f284-426f-bce7-94b06a64ed8a")
+	)
+	(fp_line
+		(start -1.7 0.9)
+		(end 1.7 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38da0844-2ccb-4499-a1d3-3fe08ab2496f")
+	)
+	(fp_line
+		(start 1.7 -0.9)
+		(end 1.7 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b3c3140-e86f-4fd7-9b49-e1e7c52e34ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.75 0)
+		(layer "F.SilkS")
+		(uuid "b8c2d76e-4f2f-488e-89a7-af04ba3e708d")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5 0)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ba274353-7c21-418d-8868-a61653c1fb6b")
+	)
+	(pad "2" smd roundrect
+		(at 1.5 0)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "95085d3c-9ccc-448f-b81c-9894cc3098d0")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

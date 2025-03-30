@@ -1,14 +1,87 @@
-(module Fiducial (layer F.Cu) (tedit 5F1BCA76)
-  (descr "Circular Fiducial, 1mm bare copper top; 2mm keepout (Level A)")
-  (tags marker)
-  (attr smd)
-  (fp_text reference REF** (at 0 0.05) (layer F.Fab)
-    (effects (font (size 0.381 0.381) (thickness 0.09525)))
-  )
-  (fp_text value Fiducial (at 0 1.651) (layer F.Fab) hide
-    (effects (font (size 0.508 0.508) (thickness 0.127)))
-  )
-  (fp_circle (center 0 0) (end 1 0) (layer F.Fab) (width 0.1))
-  (pad ~ smd circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
-    (solder_mask_margin 0.5) (clearance 0.575))
+(footprint "Fiducial"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Circular Fiducial, 1mm bare copper top; 2mm keepout (Level A)")
+	(tags "marker")
+	(property "Reference" "REF**"
+		(at 0 0.05 0)
+		(layer "F.Fab")
+		(uuid "c32b0011-1db1-4212-a468-36bb3b35400e")
+		(effects
+			(font
+				(size 0.381 0.381)
+				(thickness 0.09525)
+			)
+		)
+	)
+	(property "Value" "Fiducial"
+		(at 0 1.651 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3414a5bc-6177-4c4e-a402-7a67f941f07c")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f694f679-7eef-4f6b-9b9c-814038d27a61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d0ea553-b887-4717-8bfd-373c7570f504")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e77124d9-8c07-423e-9e19-751b7400a788")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cbc38078-3098-4fed-9cd2-27604db3483c")
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.5)
+		(clearance 0.575)
+		(uuid "cf530f11-1d0a-45f1-9e09-0b43e0ce4f1b")
+	)
 )

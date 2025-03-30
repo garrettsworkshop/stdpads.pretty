@@ -1,4 +1,4 @@
-(footprint "SolderJumper-2_NoPaste"
+(footprint "SolderJumper-2_NoPaste_NoSilk"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SolderJumper-2_NoPaste"
+	(property "Value" "SolderJumper-2_NoPaste_NoSilk"
 		(at 0 1.65 0)
 		(layer "F.Fab")
 		(uuid "72368247-12e6-42da-9a82-57ca8c2b6392")
@@ -64,90 +64,6 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -1.4 0.3)
-		(end -1.4 -0.3)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "29ad03c2-ce0e-4efa-8628-d7580caedacd")
-	)
-	(fp_line
-		(start -0.7 -1)
-		(end 0.7 -1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "092c7369-2019-43b8-9d8e-18c4450156cb")
-	)
-	(fp_line
-		(start 0.7 1)
-		(end -0.7 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ab62b0ec-d4f4-410e-a045-082976d65ef0")
-	)
-	(fp_line
-		(start 1.4 -0.3)
-		(end 1.4 0.3)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ac8f8bb5-d67a-4ed1-b5ea-aadda04e3aed")
-	)
-	(fp_arc
-		(start -1.4 -0.3)
-		(mid -1.194975 -0.794975)
-		(end -0.7 -1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "20f5f749-4788-4ecd-b68f-aaac825cbef3")
-	)
-	(fp_arc
-		(start -0.7 1)
-		(mid -1.194975 0.794975)
-		(end -1.4 0.3)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "08dcc45e-cb45-42c3-81e7-26f68f418ba8")
-	)
-	(fp_arc
-		(start 0.7 -1)
-		(mid 1.194975 -0.794975)
-		(end 1.4 -0.3)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "25c00ff7-c621-4c41-ac7c-71e5ddac44ba")
-	)
-	(fp_arc
-		(start 1.4 0.3)
-		(mid 1.194975 0.794975)
-		(end 0.7 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "567702a1-f232-4f88-bbee-a9de0bcf21c1")
-	)
 	(fp_rect
 		(start -0.15 -0.75)
 		(end 0.15 0.75)

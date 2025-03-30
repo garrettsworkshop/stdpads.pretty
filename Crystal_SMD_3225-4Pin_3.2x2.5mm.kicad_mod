@@ -43,6 +43,20 @@
   (pad "2" smd roundrect (at 1.1 0.85) (size 1.4 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7c8b3379-3108-4e34-bf0a-bda9eb8e0ea8))
   (pad "3" smd roundrect (at 1.1 -0.85) (size 1.4 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 3fd0fe16-6cc4-4257-87f3-c4f36b819656))
   (pad "4" smd roundrect (at -1.1 -0.85) (size 1.4 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 700dad02-7eae-4e43-8679-6c13556d1516))
+  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 3319ddf6-126b-4377-add0-c778afc87d00) (hatch edge 0.5)
+    (connect_pads (clearance 0))
+    (min_thickness 0.25) (filled_areas_thickness no)
+    (keepout (tracks allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon
+      (pts
+        (xy 1.7 -1.35)
+        (xy 1.7 1.35)
+        (xy -1.7 1.35)
+        (xy -1.7 -1.35)
+      )
+    )
+  )
   (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

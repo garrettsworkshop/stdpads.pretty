@@ -1,0 +1,74 @@
+(footprint "NPTH_0.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" " "
+		(at 0 0.5 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "fb017ea5-bcb7-42de-9ed8-ecf1b5c81c36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" " "
+		(at 0 -0.5 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "e80a238a-791f-4d19-8e27-32ac866da2f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57a172da-4533-4a9f-a707-380198521bed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09f4aa87-afd2-4dfd-a0b3-37a4466a9baf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e550644-2604-4157-aaf4-6750fba1a988")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "28a5f947-ee61-40a2-b55c-ac84dbbcf64f")
+	)
+)
