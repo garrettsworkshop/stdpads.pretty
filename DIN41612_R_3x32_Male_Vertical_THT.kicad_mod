@@ -1133,7 +1133,7 @@
 		(remove_unused_layers no)
 		(uuid "2ea8ca3e-593f-475a-8057-24bbdc1233ae")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x32_P2.54mm_Vertical.wrl"
+	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x32_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 -1.6)
 		)
@@ -1144,7 +1144,7 @@
 			(xyz 0 180 0)
 		)
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x32_P2.54mm_Vertical.wrl"
+	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x32_P2.54mm_Vertical.step"
 		(offset
 			(xyz 2.54 0 -1.6)
 		)
@@ -1155,7 +1155,7 @@
 			(xyz 0 180 0)
 		)
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x32_P2.54mm_Vertical.wrl"
+	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x32_P2.54mm_Vertical.step"
 		(offset
 			(xyz 5.08 0 -1.6)
 		)

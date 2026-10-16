@@ -89,7 +89,7 @@
   (pad 3 smd roundrect (at -2.54 -5.5675) (size 0.6 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd roundrect (at -1.27 -5.5675) (size 0.6 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at 0 -5.5675) (size 0.6 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-28.wrl
+  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-28.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

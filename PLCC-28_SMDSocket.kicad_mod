@@ -102,12 +102,12 @@
   (pad 26 smd roundrect (at 3.81 -5.5675) (size 0.6 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 27 smd roundrect (at 2.54 -5.5675) (size 0.6 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 28 smd roundrect (at 1.27 -5.5675) (size 0.6 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-28_PTHSocket.wrl
+  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-28_PTHSocket.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 0.5))
     (rotate (xyz 0 0 180))
   )
-  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-28.wrl
+  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-28.step
     (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

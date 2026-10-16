@@ -447,7 +447,7 @@
 		(remove_unused_layers no)
 		(uuid "7008bbcd-7b36-4667-ad9e-ab1d90cd5526")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl"
+	(model "${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.step"
 		(offset
 			(xyz 5.08 1.27 0)
 		)

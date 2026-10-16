@@ -628,7 +628,7 @@
 		(remove_unused_layers no)
 		(uuid "714fb1a6-fab1-49a7-b5ff-3d67325e5cc7")
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Vertical.step"
 		(offset
 			(xyz -8.89 11.43 0)
 		)
@@ -639,7 +639,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Vertical.step"
 		(offset
 			(xyz 11.43 11.43 0)
 		)
@@ -650,7 +650,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz -6.35 11.43 0)
 		)
@@ -661,7 +661,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz 6.35 11.43 0)
 		)
@@ -672,7 +672,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz -6.35 -6.35 0)
 		)
@@ -683,7 +683,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz 6.35 -6.35 0)
 		)
@@ -694,7 +694,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.step"
 		(offset
 			(xyz -1.27 11.43 0)
 		)
@@ -705,7 +705,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.step"
 		(offset
 			(xyz 3.81 11.43 0)
 		)
@@ -716,7 +716,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.step"
 		(offset
 			(xyz -1.27 -8.89 0)
 		)
@@ -727,7 +727,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.wrl"
+	(model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.step"
 		(offset
 			(xyz 3.81 -8.89 0)
 		)

@@ -1520,7 +1520,7 @@
 		(remove_unused_layers no)
 		(uuid "f632a66f-c97c-434e-b1c7-0c3adb945b5e")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_DIN.3dshapes/DIN41612_R_3x32_Male_Horizontal_THT.wrl"
+	(model "${KICAD6_3DMODEL_DIR}/Connector_DIN.3dshapes/DIN41612_R_3x32_Male_Horizontal_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

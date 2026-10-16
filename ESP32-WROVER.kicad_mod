@@ -110,12 +110,12 @@
     (zone_connect 2) (tstamp 38d3fe3d-8b8f-4d32-b1a3-94e8dc10a0f3))
   (pad "39" smd rect (at 4.2915 1 90) (size 3 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 2) (tstamp 1504cc44-5661-4f47-aa39-a1d5c981f643))
-  (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32.step"
     (offset (xyz 2.94 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
-  (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32.step"
     (offset (xyz 9.29 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

@@ -832,7 +832,7 @@
 		(remove_unused_layers no)
 		(uuid "f8efe491-b9fc-4bb8-b53b-4258d75900b7")
 	)
-	(model "${KIPRJMOD}/../stdpads.3dshapes/PLCC-68_PTHSocket.wrl"
+	(model "${KIPRJMOD}/../stdpads.3dshapes/PLCC-68_PTHSocket.step"
 		(offset
 			(xyz 0 0 0)
 		)

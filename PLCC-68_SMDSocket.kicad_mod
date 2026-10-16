@@ -144,12 +144,12 @@
   (pad 64 smd roundrect (at 6.35 -11.8) (size 0.6 1.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 65 smd roundrect (at 5.08 -11.8) (size 0.6 1.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 66 smd roundrect (at 3.81 -11.8) (size 0.6 1.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-68_PTHSocket.wrl
+  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-68_PTHSocket.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 0.5))
     (rotate (xyz 0 0 180))
   )
-  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-68.wrl
+  (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-68.step
     (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

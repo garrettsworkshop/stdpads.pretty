@@ -1,30 +1,173 @@
-(module C_0402 (layer F.Cu) (tedit 5EE29C3C)
-  (tags capacitor)
-  (solder_mask_margin 0.05)
-  (solder_paste_margin -0.05)
-  (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.Fab)
-    (effects (font (size 0.127 0.127) (thickness 0.03175)))
-  )
-  (fp_text value C_0402 (at 0 0.4) (layer F.Fab)
-    (effects (font (size 0.127 0.127) (thickness 0.03175)))
-  )
-  (fp_line (start 1 0.5) (end -1 0.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1 -0.5) (end 1 0.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1 -0.5) (end 1 -0.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1 0.5) (end -1 -0.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer F.Fab) (width 0.05))
-  (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer F.Fab) (width 0.05))
-  (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer F.Fab) (width 0.05))
-  (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.05))
-  (fp_text user %R (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 0.127 0.127) (thickness 0.03175)))
-  )
-  (pad 2 smd roundrect (at 0.5 0) (size 0.6 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (pad 1 smd roundrect (at -0.5 0) (size 0.6 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C_0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e7cd6a48-5cdc-4d58-ab45-a18c97c3e509")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.03175)
+			)
+		)
+	)
+	(property "Value" "C_0402"
+		(at 0 0.4 0)
+		(layer "F.Fab")
+		(uuid "687bd9b6-5c20-47c2-bed7-b3b35f1684a3")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.03175)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df562ae2-0211-4344-a9f5-00bfddadacd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9da39b08-7c2c-4298-a911-e177b854319b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Field4" "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8aaed6a0-6000-4c83-8ded-458ce69f6a15")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.03175)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(solder_paste_margin -0.05)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -0.5)
+		(end 1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "391b4e69-dddf-4433-bea1-094226b15cf3")
+	)
+	(fp_line
+		(start -1 0.5)
+		(end -1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a4652b2-ce45-407a-b191-e1ede4c561a0")
+	)
+	(fp_line
+		(start 1 -0.5)
+		(end 1 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "45d8c462-65dd-4286-b378-4a67cfecf0fd")
+	)
+	(fp_line
+		(start 1 0.5)
+		(end -1 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdaaf9ba-4dae-4db9-9ea9-e80b5b254e91")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "567ce282-1a43-4367-b418-44121c8f3c24")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "248b8980-2276-4f8f-a8c5-baf68d50d53d")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a52a023b-791a-4d93-8ed2-db049696742d")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "757ca36a-45dc-4f0c-b541-3925b76c80ee")
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0)
+		(size 0.6 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6991e439-48a3-4819-91dc-981043ef60c7")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 0)
+		(size 0.6 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f24f6827-be42-4f69-bbe1-a1fb2b4f121f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

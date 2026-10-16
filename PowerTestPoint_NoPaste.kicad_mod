@@ -1,44 +1,272 @@
-(module PowerTestPoint_NoPaste (layer F.Cu) (tedit 5EE29BE2)
-  (solder_mask_margin 0.05)
-  (attr virtual)
-  (fp_text reference REF** (at 0 3.1) (layer F.SilkS)
-    (effects (font (size 0.508 0.508) (thickness 0.127)))
-  )
-  (fp_text value PowerTestPoint_NoPaste (at 0 -3.1 180) (layer F.SilkS)
-    (effects (font (size 0.508 0.508) (thickness 0.127)))
-  )
-  (fp_line (start -2 2.7) (end -2 -2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2 -2.7) (end 2 2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2 -2.7) (end 2 -2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2 2.7) (end 2 2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -1.05) (end -0.8 -1.85) (layer F.Fab) (width 0.05))
-  (fp_line (start 0.8 -1.05) (end -0.8 -1.05) (layer F.Fab) (width 0.05))
-  (fp_line (start -0.35 -2.5) (end 0.35 -2.5) (layer F.SilkS) (width 0.127))
-  (fp_line (start 0.8 -1.85) (end 0.8 -1.05) (layer F.Fab) (width 0.05))
-  (fp_line (start 0.35 -0.4) (end -0.35 -0.4) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.8 -1.85) (end 0.8 -1.85) (layer F.Fab) (width 0.05))
-  (fp_text user %R (at 0 -1.45) (layer F.Fab)
-    (effects (font (size 0.127 0.127) (thickness 0.03175)))
-  )
-  (fp_line (start 0.35 2.5) (end -0.35 2.5) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.35 0.4) (end 0.35 0.4) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.8 1.05) (end 0.8 1.05) (layer F.Fab) (width 0.05))
-  (fp_line (start 0.8 1.05) (end 0.8 1.85) (layer F.Fab) (width 0.05))
-  (fp_line (start 0.8 1.85) (end -0.8 1.85) (layer F.Fab) (width 0.05))
-  (fp_line (start -0.8 1.85) (end -0.8 1.05) (layer F.Fab) (width 0.05))
-  (fp_text user %R (at 0 1.45) (layer F.Fab)
-    (effects (font (size 0.127 0.127) (thickness 0.03175)))
-  )
-  (pad 1 smd roundrect (at 0 -1.45) (size 3.4 1.8) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
-  (pad 2 smd roundrect (at 0 1.45) (size 3.4 1.8) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
-  (model ${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch7.62mm_Drill1.3mm.wrl
-    (offset (xyz -0.6834 -1 0))
-    (scale (xyz 0.18 0.62 0.09))
-    (rotate (xyz 0 0 0))
-  )
-  (model ${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch7.62mm_Drill1.3mm.wrl
-    (offset (xyz -0.6834 1 0))
-    (scale (xyz 0.18 0.62 0.09))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "PowerTestPoint_NoPaste"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.1 0)
+		(layer "F.SilkS")
+		(uuid "db84d757-a927-4a7d-8aa6-fa778ebae2bc")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "PowerTestPoint_NoPaste"
+		(at 0 -3.1 180)
+		(layer "F.SilkS")
+		(uuid "b4284670-f067-4de0-9dbb-93d2e9329ca9")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d76966d-a2fe-4d5f-a7b6-f3bbadccad8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbb77df5-0858-4928-87b3-9cbcd91cf34f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.35 -2.5)
+		(end 0.35 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "629fa2e6-6b92-43be-a739-ef35884fd798")
+	)
+	(fp_line
+		(start -0.35 0.4)
+		(end 0.35 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "281b0fe7-fdca-4457-8329-6ccd9d270c83")
+	)
+	(fp_line
+		(start 0.35 -0.4)
+		(end -0.35 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a4cdfa5-fffe-43cd-b316-f73483ec018f")
+	)
+	(fp_line
+		(start 0.35 2.5)
+		(end -0.35 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "765c9348-81ff-423b-9f96-9ccb0f4c1a90")
+	)
+	(fp_line
+		(start -2 -2.7)
+		(end 2 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b28e49c-299c-4b1d-9793-8ece3b3f9187")
+	)
+	(fp_line
+		(start -2 2.7)
+		(end -2 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec6c540e-8bea-417c-8ade-404ef3ceac89")
+	)
+	(fp_line
+		(start -2 2.7)
+		(end 2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a97b2087-3a63-477a-b42c-5268f156608a")
+	)
+	(fp_line
+		(start 2 -2.7)
+		(end 2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce2fc77f-8861-41e8-9ccc-5a019e27266c")
+	)
+	(fp_line
+		(start -0.8 -1.85)
+		(end 0.8 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e365f51-dff8-4885-9856-3b7bb9e14354")
+	)
+	(fp_line
+		(start -0.8 -1.05)
+		(end -0.8 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad24827d-5632-434c-89d4-9b74bf7ae7af")
+	)
+	(fp_line
+		(start -0.8 1.05)
+		(end 0.8 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da827ef1-1d7e-460c-86da-e818c50bf470")
+	)
+	(fp_line
+		(start -0.8 1.85)
+		(end -0.8 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9380c21-2b27-4331-b1fa-68e7f7f931c0")
+	)
+	(fp_line
+		(start 0.8 -1.85)
+		(end 0.8 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10feff9c-cbe8-4969-a936-1ebfe323332e")
+	)
+	(fp_line
+		(start 0.8 -1.05)
+		(end -0.8 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6443137-e955-44cc-afee-a4e77ee0d4d6")
+	)
+	(fp_line
+		(start 0.8 1.05)
+		(end 0.8 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d43fcd3-a2b0-48ca-8182-c762524ad93f")
+	)
+	(fp_line
+		(start 0.8 1.85)
+		(end -0.8 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ad3eed8-f31b-45b3-9939-5d6909ed3e98")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.45 0)
+		(layer "F.Fab")
+		(uuid "6e86c9b2-e565-4511-8d96-fa5ac44a7bfa")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.03175)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.45 0)
+		(layer "F.Fab")
+		(uuid "fa008889-200f-4618-84d7-8edccbcfdfec")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.03175)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -1.45)
+		(size 3.4 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ab15dbaa-3a54-4783-8863-e158b505a556")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.45)
+		(size 3.4 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "008c6956-5eb5-4cac-892a-6bbef59c95d5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch7.62mm_Drill1.3mm.step"
+		(offset
+			(xyz -0.6834 -1 0)
+		)
+		(scale
+			(xyz 0.18 0.62 0.09)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch7.62mm_Drill1.3mm.step"
+		(offset
+			(xyz -0.6834 1 0)
+		)
+		(scale
+			(xyz 0.18 0.62 0.09)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -55,7 +55,7 @@
   (pad "8" thru_hole circle (at -2.54 -1.27 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 16ec7906-bcd8-4620-9ab5-8e13d91ee7f8))
   (pad "9" thru_hole circle (at -5.08 1.27 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 9d649c46-b82b-4891-9575-a4ffca0591c2))
   (pad "10" thru_hole circle (at -5.08 -1.27 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 4546448a-f3b9-425a-af95-4fabaec6b75c))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x05_P2.54mm_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x05_P2.54mm_Vertical.step"
     (offset (xyz 5.08 -1.27 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

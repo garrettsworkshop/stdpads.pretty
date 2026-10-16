@@ -92,7 +92,7 @@
   (pad "30" smd roundrect (at -6.8375 -3.81 90) (size 0.6 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ec9d11f6-bd40-4ee0-9532-118ee79544e3))
   (pad "31" smd roundrect (at -6.8375 -2.54 90) (size 0.6 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e12fb9b0-9618-45d9-82a7-b63bf3ddeadd))
   (pad "32" smd roundrect (at -6.8375 -1.27 90) (size 0.6 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp adf80c93-e651-4d83-9267-ef6b6cb29223))
-  (model "${KIPRJMOD}/../stdpads.3dshapes/PLCC-32.wrl"
+  (model "${KIPRJMOD}/../stdpads.3dshapes/PLCC-32.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
